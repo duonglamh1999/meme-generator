@@ -1,0 +1,9 @@
+
+meme-container{
+    contenet container w/ max width=?? {
+        img. class width =100%?
+        text container position= relative => place it in the top{
+            h1
+        }
+    }
+}
