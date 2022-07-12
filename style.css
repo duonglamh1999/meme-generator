@@ -13,6 +13,7 @@ body {
     background-color: #262527;
     overflow:hidden;
     color:white;
+    overflow: scroll ;
   }
 .form-container{
 width: 100%;
@@ -20,19 +21,19 @@ color: #fae881;
 overflow:hidden;
 }
 #form{
-padding-top: 2rem;
+padding-top: 1.5rem;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
 #form input,button{
     width: 30rem;
-    margin: 1rem;
+    margin: .5rem;
     font-size: 2rem;
     border-radius: .5rem;
 }
 #form input{
-    padding: 1rem;
+    padding: .5rem;
 }
 #form button {
     cursor: pointer;
