@@ -9,15 +9,27 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="form-container">
             <form id="form">
-               <label>Link:<input type="text" placeholder="whatever.com" id="link"></label> 
-               <label>Top text:<input type="text" placeholder="I am so cute" id="top"></label> 
-                <label>Bottom Text:<input type="text" placeholder="But I am hungry" id="bottom"></label>
-                <button tyoe="submit" id="button">Submit</button>
+                <header>Meme Maker</header>
+                <input type="text" placeholder="Picture URL" id="linkInput">
+                <input type="text" placeholder="Top text" id="topInput"> 
+                <input type="text" placeholder="Bottom text" id="bottomInput">
+                <button type="submit" id="button">Submit</button>
             </form>
         </div>
         <div id="meme-section-container">
+                <div class="meme-container">
+                    <img src="https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s600-c85.webp" alt="it's a meme">
+                    <div class="word-container">
+                    <p class="toptext">Example</p>
+                    <p class="bottomtext">Example</p>
+                    </div>
+                    <div class="overlay">
+                        <div class="overlay-text">Click to delete</div>
+                    </div>
+                </div>
         </div>
     </div>
     <script src="app.js"></script>
